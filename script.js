@@ -76,3 +76,17 @@ function renderLists() {
 }
 
 renderLists();
+
+
+function handleSearch() {
+    let searchInput = document.getElementById("search__field");
+
+    searchInput.addEventListener('keyup', function (e) {
+        if (e.key === "Enter") {
+            console.log(searchInput.value);
+            window.open('https://www.google.nl/search?q=' + searchInput.value);
+        }
+    })
+}
+
+handleSearch();
