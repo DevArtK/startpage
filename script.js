@@ -75,9 +75,6 @@ function renderLists() {
     });
 }
 
-renderLists();
-
-
 function handleSearch() {
     let searchInput = document.getElementById("search__field");
 
@@ -89,4 +86,5 @@ function handleSearch() {
     })
 }
 
+renderLists();
 handleSearch();
