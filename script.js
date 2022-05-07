@@ -40,6 +40,10 @@ const lists = [
             {
                 title: 'youtube',
                 url: 'https://youtube.com/'
+            },
+            {
+                title: 'hacker news',
+                url: 'https://news.ycombinator.com/'
             }
         ]
     }
