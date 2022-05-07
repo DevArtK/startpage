@@ -76,6 +76,7 @@ ul {
     min-width: 100px;
     min-height: 100px;
     border-radius: 15%;
+    box-shadow: 0px 0px 10px black;
 }
 
 li:nth-child(2) {
