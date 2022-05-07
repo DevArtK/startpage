@@ -1,6 +1,6 @@
 const lists = [
     {
-        heading: 'dev',
+        heading: 'Dev',
         links: [
             {
                 title: 'github',
@@ -9,25 +9,33 @@ const lists = [
         ]
     },
     {
-        heading: 'studies',
+        heading: 'Studies',
         links: [
             {
                 title: 'udemy',
-                url: 'udemy url'
+                url: 'https://cooksystems.udemy.com/organization/home/'
+            },
+            {
+                title: 'hackerrank',
+                url: 'https://www.hackerrank.com/'
             }
         ]
     },
     {
-        heading: 'personal',
+        heading: 'Personal',
         links: [
             {
-                title: 'gmail',
-                url: 'gmail url'
+                title: 'gMail',
+                url: 'https://mail.google.com/'
+            },
+            {
+                title: 'gDrive',
+                url: 'https://drive.google.com/drive/my-drive'
             }
         ]
     },
     {
-        heading: 'media',
+        heading: 'Media',
         links: [
             {
                 title: 'youtube',
