@@ -81,7 +81,7 @@ function handleSearch() {
     searchInput.addEventListener('keyup', function (e) {
         if (e.key === "Enter") {
             console.log(searchInput.value);
-            window.open('https://www.google.nl/search?q=' + searchInput.value);
+            window.open('https://www.google.nl/search?q=' + searchInput.value).focus();
         }
     })
 }
