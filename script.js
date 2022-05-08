@@ -35,6 +35,24 @@ const lists = [
         ]
     },
     {
+        heading: "Homelab",
+        links: [
+            {
+                title: 'cloudFlare',
+                url: 'https://www.cloudflare.com/'
+            },
+            {
+                title: 'noIP',
+                url: 'https://www.noip.com/'
+            },
+            {
+                title: 'googleDomains',
+                url: 'https://domains.google/'
+            }
+
+        ]
+    },
+    {
         heading: 'Media',
         links: [
             {
