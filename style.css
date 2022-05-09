@@ -59,8 +59,17 @@ input[type=search] {
     justify-content:center;
 }
 
-.box,  img {
-    padding-right: 100px;
+.box__image {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.box__image,  img {
+    /* padding-right: 100px; */
+    width: 100%;
 }
 
 .box__links {
@@ -117,4 +126,8 @@ a::after {
 a:hover::after {
     width: 100%;
     border-bottom: 2px solid var(--blue);
+}
+
+@media only screen and (max-width: 1000px) {
+
 }
