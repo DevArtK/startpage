@@ -62,6 +62,10 @@ const lists = [
             {
                 title: 'hacker news',
                 url: 'https://news.ycombinator.com/'
+            },
+            {
+                title: 'reddit',
+                url: 'https://www.reddit.com/'
             }
         ]
     }
